@@ -1,6 +1,6 @@
-![](https://i.ibb.co/KxW7kdb/OCST-Logo-w-Text.png)
+![OCST](https://i.ibb.co/KxW7kdb/OCST-Logo-w-Text.png)
 
-#CONTENTS OF THIS FILE
+# CONTENTS OF THIS FILE
 
 1. Introduction
 2. Requirements
@@ -10,20 +10,20 @@
 6. Troubleshooting
 6. End
 
-#1. Introduction
+# 1. Introduction
 - EAF Event Viewer is a program to show the EAF Event Process of 60 ton steel making.
 - It is include { "시각", "작업내용", "시용량", "STEP", "TAP(V)", "ARC(A)", "전류 kA", "전력 kWh", "역률 %", "온도 °C" }.
 - Event address: ../IPC60/Table/[dbo].[EAF_Event]
 - Database address: ../IPC60/Table/[dbo].[EAF_Event_Result]
 - SQL procedure address: ../IPC60/Programmability/Stored Procedure/[dbo].[PROC_EVENT_VIEWER]
 
-#2. Requirements
+# 2. Requirements
 - Windows 10.
 
-#3. Installation
+# 3. Installation
 - Run file at directory: ../EAF Installer.msi
 
-#4. Configuration
+# 4. Configuration
 - After installing the program, run the application: ../User/Desktop/EAF Event Viewer.
 - Use the "Gear button" at the top right of the application to go to setting control.
 
@@ -35,7 +35,7 @@
 - "Update Database button" is to get all of the databases at the available server then show them to "DataBase".
 After the user enters User name and Password, the "save button" checks the database connection (database connection, database authentication,...), saves setting information, and connects to the server.
 
-#5. Using Guide
+# 5. Using Guide
 This is the main screen of the EAF Event Viewer. The following is the function of the numeric box.
 ![](https://i.ibb.co/m8p27bq/Main-Program60.png)
 
@@ -53,11 +53,11 @@ This is the main screen of the EAF Event Viewer. The following is the function o
 ##### 10: Exit button: exit program.
 ##### 11: Main box show database.
 
-#6. Troubleshooting
+# 6. Troubleshooting
 - When running the program, some error might occur. The error will show as a popup box with **Error Code**.
 - The below is Error Code might show, the following is Description and Solution.
 
-####Error Code
+#### Error Code
 
 ------------
 ##### 0xXX
@@ -122,7 +122,7 @@ This is the main screen of the EAF Event Viewer. The following is the function o
 - **Solution**: Check database connection(Wifi, Ethernet,...)
 
 
-###End
+### End
 **Thank you for using application.**
 
 ![](http://www.ocst.co.kr/img/favicon_144px.png)
